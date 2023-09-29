@@ -1,0 +1,66 @@
+
+.curved-box {
+  width: 200px;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-radius: 20px; /* Adjust the radius to control the curve */
+  text-align: center;
+}
+
+.curved-box-sm {
+  width: 100px;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-radius: 20px; /* Adjust the radius to control the curve */
+  text-align: center;
+}
+
+.red-text {
+  color: red;
+}
+
+/* Dark theme for highlighted word */
+.highlighted-word {
+  // background-color: black;
+  // color: rgb(32, 31, 31);
+  padding: 5px;
+  font-weight: bold;
+}
+
+/* Light theme for additional text */
+.light-text {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+/* dashboard.component.scss */
+// :host {
+//   background-color: rgb(194, 26, 26);
+//   color: rgb(14, 13, 13);
+// }
+
+[class*="con"] {
+  background-color: rgb(51, 51, 48);
+  // color: rgb(24, 23, 23);
+  padding: 10px;
+  border: 2px ;
+  text-align: center;
+}
+
+// [class*="col"] {
+//   background-color: rgb(200, 19, 224);
+//   color: rgb(228, 218, 218);
+//   padding: 1rem;
+//   border: 2px solid #ffff;
+//   text-align: center;
+// }
+
+
+// [class*="row"] {
+//   background-color: rgb(12, 11, 12);
+//   color: rgb(228, 218, 218);
+//   padding: 1rem;
+//   border: 2px solid #ffff;
+//   text-align: center;
+// }
