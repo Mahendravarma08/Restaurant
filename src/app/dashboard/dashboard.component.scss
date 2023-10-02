@@ -1,8 +1,17 @@
+// nav bar stylings
+
+.navbar .navbar-nav .nav-item a{
+  padding:15px
+}
+
+.navbar .navbar-nav .nav-but{
+  padding:10px
+}
 
 .curved-box {
   width: 200px;
   padding: 5px;
-  background-color: #f0f0f0;
+  background-color: #141313;
   border-radius: 20px; /* Adjust the radius to control the curve */
   text-align: center;
 }
@@ -10,7 +19,7 @@
 .curved-box-sm {
   width: 100px;
   padding: 5px;
-  background-color: #f0f0f0;
+  background-color: #0f0f0f;
   border-radius: 20px; /* Adjust the radius to control the curve */
   text-align: center;
 }
@@ -42,7 +51,7 @@
 
 [class*="con"] {
   background-color: rgb(51, 51, 48);
-  // color: rgb(24, 23, 23);
+  color: rgb(248, 242, 242);
   padding: 10px;
   border: 2px ;
   text-align: center;
