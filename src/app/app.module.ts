@@ -7,6 +7,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { MenuComponent } from './menu/menu.component';
 import { SharednavbarComponent } from './sharednavbar/sharednavbar.component';
+import { AboutusOwnerComponent } from './aboutus-owner/aboutus-owner.component';
+import { AboutusChefsComponent } from './aboutus-chefs/aboutus-chefs.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SharednavbarComponent } from './sharednavbar/sharednavbar.component';
     DashboardComponent,
     AboutUsComponent,
     MenuComponent,
-    SharednavbarComponent
+    SharednavbarComponent,
+    AboutusOwnerComponent,
+    AboutusChefsComponent
   ],
   imports: [
     BrowserModule,

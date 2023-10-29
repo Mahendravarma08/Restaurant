@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./about-us.component.scss']
 })
 export class AboutUsComponent {
+  option: string = 'aboutus'
 
+  change(type: string) {
+    this.option = type
+  }
 }

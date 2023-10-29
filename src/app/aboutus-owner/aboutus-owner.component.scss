@@ -1,0 +1,41 @@
+// .box {
+//     background-color: lightgrey;
+//     width: 1200px;
+//     // border: 15px solid green;
+//     padding: 50px;
+//     margin: 20px;
+//   }
+
+//   .img-container-block {
+//     text-align: center;
+//   }
+//   .img-container-inline {
+//     text-align: center;
+//     display: block;
+//   }
+
+//   .img-container-inline img {
+//     width: auto; /* or any desired width value */
+//     height: auto; /* to maintain aspect ratio */
+//   }
+//   .imagerow{
+//     height: 50px;
+//   }
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.image {
+  margin-bottom: 10px;
+}
+
+.text {
+  margin-bottom: 20px;
+}
